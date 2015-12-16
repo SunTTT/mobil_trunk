@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="yellow">#F9F900</color>
+	<color name="window_bg">#fff0f3f6</color>
+    
+    <color name="transparent">#00000000</color>
+    
+    <color name="title_bg">#ff54acea</color>
+
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+
+    <color name="info_panel_bg">#ffeeeeee</color>
+     <color name="white1">#FFFFFF</color>
+     <color name="white2">#F0F0F0</color>
+     <color name="white3">#6fFFFFFF</color>
+	<color name="chat_title_name">#ffffffff</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="black">#000000</color>
+    <color name="green1">#28FF28</color>
+    <color name="oreage1">#FFBB77</color>
+    <color name="tmds">#6fFFFFFF</color>
+    <color name="dise2">#FFFFAA</color>
+    <color name="green2">#007500</color>
+    <color name="black1">#8E8E8E</color>
+    <color name="black2">#4F4F4F</color>
+    <color name="black3">#F0F0F0</color>
+    <color name="black4">#E0E0E0</color>
+    <color name="ligthgray">#d3d3d3</color>
+    <color name="nocheck">#dcdcdc</color>
+    <color name="check">#699f00</color>
+    <color name="home_activity_gridback">#eeeeee</color>
+    <color name="site_list_bk">#f0f0f0</color>
+    <color name="blue">#17b3Ec</color>
+    <color name="station_name_color">#3881f4</color>
+    <color name="station_time_color">#4c4d4f</color>
+    <color name="login_bg">#377eb4</color>
+    <color name="login_button">#77b3d7</color>
+    <color name="login_button_press">#6294b2</color>
+    <color name="login_edittext_stroke">#3e5567</color>
+    <color name="login_text">#464545</color>
+</resources>

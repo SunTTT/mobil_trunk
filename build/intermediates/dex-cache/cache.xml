@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\mobile_farming_trunk2\app\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="D:\mobile_farming_trunk2\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy-7ea660a79ab2323361d5fb9d73a53c55dcaf623d.jar" />
+    </item>
+
+</items>

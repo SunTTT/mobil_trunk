@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="black1">#8E8E8E</color>
+    <color name="black2">#4F4F4F</color>
+    <color name="black3">#F0F0F0</color>
+    <color name="black4">#E0E0E0</color>
+    <color name="blue">#17b3Ec</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="chat_title_name">#ffffffff</color>
+    <color name="check">#699f00</color>
+    <color name="dise2">#FFFFAA</color>
+    <color name="green1">#28FF28</color>
+    <color name="green2">#007500</color>
+    <color name="home_activity_gridback">#eeeeee</color>
+    <color name="info_panel_bg">#ffeeeeee</color>
+    <color name="ligthgray">#d3d3d3</color>
+    <color name="login_bg">#377eb4</color>
+    <color name="login_button">#77b3d7</color>
+    <color name="login_button_press">#6294b2</color>
+    <color name="login_edittext_stroke">#3e5567</color>
+    <color name="login_text">#464545</color>
+    <color name="nocheck">#dcdcdc</color>
+    <color name="oreage1">#FFBB77</color>
+    <color name="site_list_bk">#f0f0f0</color>
+    <color name="station_name_color">#3881f4</color>
+    <color name="station_time_color">#4c4d4f</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="tmds">#6fFFFFFF</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="transparent">#00000000</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="white2">#F0F0F0</color>
+    <color name="white3">#6fFFFFFF</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="yellow">#F9F900</color>
+    <declare-styleable name="Gallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AlarmSet">报警设置</string>
+    <string name="DataAnalysis">数据分析</string>
+    <string name="DataMonitoring">数据监控</string>
+    <string name="ERROR_TYPE_LOGINFAIL">未授权：登录失败</string>
+    <string name="ERROR_TYPE_NONETWORK">未授权：无法连接网络</string>
+    <string name="ERROR_TYPE_NOSERVICE">无法获得服务 — 由于临时过载或维护，服务器无法处理请求</string>
+    <string name="ERROR_TYPE_NO_RESOURCES">资源不存在 </string>
+    <string name="ERROR_TYPE_SERVIC_EMPTY_DATABASE">连接服务器出错—无法连接数据库</string>
+    <string name="ERROR_TYPE_SERVIC_EMPTY_ILLEGAL">非法连接服务器 </string>
+    <string name="ERROR_TYPE_SERVIC_EMPTY_RESOURCES">当前没有任何要显示的数据信息</string>
+    <string name="ERROR_TYPE_SERVIC_EUNEXPECTED">因为意外情况，服务器不能完成请求</string>
+    <string name="ERROR_TYPE_SERVIC_SERVICELINK">连接服务器出错—无法获得服务 </string>
+    <string name="ImageMonitoring">图像监控</string>
+    <string name="ScientificData">查询数据</string>
+    <string name="about">关于</string>
+    <string name="about_hsyj">3、红色预警：若开启，根据设定范围将异常数据及时发送到指定手机</string>
+    <string name="about_mrtx">1、每日提醒：若开启，会发送站点上一日的平均值、今日发生的最大值和最小值，设置定时会每天按设定时间发送指定手机</string>
+    <string name="about_qsbj">4、缺失报警：若开启，将站点中有问题传感器及时发送到指定手机</string>
+    <string name="about_ssbj">2、实时报警：若开启，将站点最新一条数据按照设定时间及时发送，设置时间间隔将每一时间段内发送最新数据到指定手机</string>
+    <string name="about_warn">关于报警设置</string>
+    <string name="act">这只是个测试！</string>
+    <string name="add">添加</string>
+    <string name="addtel">添加号码</string>
+    <string name="alerm_mainhead">站点信息列表</string>
+    <string name="app_name">农业远程监控</string>
+    <string name="beijingkailin">北京恺琳科技发展有限公司</string>
+    <string name="bjtel">报警电话号</string>
+    <string name="cancle">取消</string>
+    <string name="chartdata">数据分析</string>
+    <string name="chuanganqi">传感器</string>
+    <string name="delete">删除</string>
+    <string name="desc">图片描述</string>
+    <string name="exit">退 出</string>
+    <string name="fasongdianhua">发送电话号</string>
+    <string name="hello">Hello Mobile!</string>
+    <string name="hour">小时</string>
+    <string name="imageview">查询图像</string>
+    <string name="jiange">间隔</string>
+    <string name="kqsz">开启设置</string>
+    <string name="least_values">最新值</string>
+    <string name="login">登 录</string>
+    <string name="map">地图</string>
+    <string name="meirifasongshijian">每日发送时间</string>
+    <string name="meiritixing">每日提醒设置</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="opt_acceptGroupMsg">接收群消息</string>
+    <string name="opt_hideLogin">隐身登录</string>
+    <string name="opt_openVibra">开启振动</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="opt_silent">静音登录</string>
+    <string name="pwd">密码</string>
+    <string name="queshibaojing">即时报警</string>
+    <string name="qybjsz">启用报警设置</string>
+    <string name="qyksbj">启用快速报警</string>
+    <string name="reminder">温馨提示：</string>
+    <string name="search">搜索</string>
+    <string name="search1">查询</string>
+    <string name="sensor_prompt">传感器如下：</string>
+    <string name="set_notice">通知</string>
+    <string name="set_system">设置</string>
+    <string name="setbjtime">设置报警时间</string>
+    <string name="settime">设置时间</string>
+    <string name="shifoukaiqi">是否开启</string>
+    <string name="shijianshezhi">时间设置</string>
+    <string name="shishihuibao">实时汇报设置</string>
+    <string name="site_str">  站点信息列表</string>
+    <string name="softmass1">农业数据信息远程监控系统\n(版本：V2.0)</string>
+    <string name="softmass_hlj">黑龙江数据信息远程监控系统\n(版本：V2.0.1)</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="sxz">上限值</string>
+    <string name="sys_nothing">当前没有要显示的</string>
+    <string name="system_zt">系统状态</string>
+    <string name="system_zt_set">系统状态设置</string>
+    <string name="tab_aution">数据监控</string>
+    <string name="tab_my_achieve">图像监控</string>
+    <string name="user">用户名</string>
+    <string name="welcome">欢迎进入   </string>
+    <string name="xxz">下限值</string>
+    <string name="yes">是</string>
+    <!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Animations"/>
+    <style name="Animations.PopDownMenu"/>
+    <style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+    <style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+    <style name="Animations.PopDownMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_top</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+    <style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+    <style name="Animations.PopUpMenu"/>
+    <style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+    <style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+    <style name="Animations.PopUpMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+    <style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+    <style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_exit</item>
+	</style>
+    <style name="StartStyle" parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@anim/startmove</item>
+	</style>
+    <style name="Theme" parent="android:Theme">
+	 </style>
+</resources>

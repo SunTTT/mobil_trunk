@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape= "rectangle"  >
+         <solid android:color="#F0FFFF"/> <!-- 设置背景 #87CEFA-->
+        <stroke android:width="0.5dip"  android:color="#DCDCDC"/> <!-- 设置边框 -->
+</shape><!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/drawable-ldpi/even_row_shape.xml -->

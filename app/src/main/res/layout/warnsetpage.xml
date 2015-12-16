@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            
+            android:orientation="horizontal" >
+ 
+            <TextView
+                android:id="@+id/set_stationName"
+                android:layout_width="270dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="10dip"
+	            android:textColor="@color/black"
+	            android:ellipsize="marquee"
+	            android:focusable="true"
+	            android:singleLine="true"
+	            android:gravity="center"
+	            android:marqueeRepeatLimit="marquee_forever"
+	            android:focusableInTouchMode="true"
+	            android:scrollHorizontally="true"
+	            android:textSize="32px"
+                android:layout_weight="0.6"/>
+            <TextView android:id="@+id/set_leasttime"
+                android:layout_width="30dip"
+                android:layout_height="25dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/set"
+	            android:layout_weight="0.4"/>
+        </RelativeLayout>
+       <View  
+            android:layout_height="3px" 
+            android:layout_width="match_parent"
+            android:background="#06a026" 
+            android:layout_marginTop="5dip"
+        />
+            
+            <com.mobile.publiclass.CornerListView android:layout_marginTop="50dip"
+                android:id="@+id/listview1"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:background="@drawable/shape_bg_listview"
+		        android:cacheColorHint="@null"
+	            />
+	       
+       
+        
+            
+        
+    
+    
+
+</LinearLayout>

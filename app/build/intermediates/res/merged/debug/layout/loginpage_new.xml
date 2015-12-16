@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dip"
+        android:gravity="center_horizontal"> 
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/softmass1"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/white1"/>       
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+
+
+         >
+
+
+
+	        <AutoCompleteTextView
+	            android:id="@+id/login_edit_account"
+	            android:hint="@string/user"
+                android:background="@drawable/login_edittext"
+	            android:layout_width="220dip"
+	            android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+
+
+            <EditText android:id="@+id/login_edit_pwd"
+                android:hint="@string/pwd"
+                android:paddingRight="5dip"
+                android:background="@drawable/login_edittext"
+                android:inputType="textPassword"
+                android:layout_width="220dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_edit_account"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+
+            
+             <CheckBox 
+                android:checked="true"
+				android:id="@+id/login_savepwd"
+android:layout_alignRight="@+id/login_edit_pwd"
+                 android:textSize="18sp"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"			  
+				android:text="@string/opt_remember"
+				android:textColor="@color/black1"
+                 android:layout_below="@+id/login_edit_pwd" />
+          <!--  android:button="@drawable/btn_check"-->
+             <Button
+                android:id="@+id/login_btn_login"
+                android:layout_width="220dp"
+				android:layout_height="wrap_content"
+                 android:layout_below="@+id/login_savepwd"
+				android:background="@drawable/login_button"
+				android:layout_marginRight="15dip"
+                 android:layout_centerHorizontal="true"
+				/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:contentDescription ="@string/desc" 
+        android:layout_width="fill_parent"  
+        android:layout_height="150dip"
+        android:src="@drawable/desk_logo_new2"
+        android:paddingBottom="40dip"/>
+</LinearLayout><!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/layout/loginpage_new.xml -->

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.appPre"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <!-- map -->
+    
+     <!-- 添加屏幕及版本支持 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+<!--最小支持4.0-->
+    <uses-sdk android:minSdkVersion="14" >
+    </uses-sdk>
+
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    
+    <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    
+    <!-- map end -->
+    
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application
+        android:icon="@drawable/logooooo"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="2D0GHGWDkv2Qfie5tNupp986" />
+        <activity
+            android:label="@string/app_name"
+            android:name="com.mobile.appPre.AnimationActivity" android:screenOrientation="portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mobile.appPre.LoginActivity"  android:screenOrientation="portrait"/>
+        <activity android:name="com.mobile.appPre.SiteList"  android:screenOrientation="portrait"/>
+        <activity android:name="com.mobile.appPre.SiteTabHost" android:screenOrientation="portrait"/>
+        <activity android:name="com.mobile.appPre.ScientificData" android:screenOrientation="portrait"/>           
+        <activity android:name="com.mobile.appPre.NewMainactivity"  android:screenOrientation="portrait"/>
+        <activity android:name="com.mobile.appPre.HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mobile.appPre.ChartDemo" android:screenOrientation="portrait"/>
+        <activity android:name="org.achartengine.chartdemo.demo.chart.XYChartBuilder"/>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+		<activity android:name="com.mobile.appPre.GeneratedChartDemo" />
+		<activity android:name="com.mobile.appPre.NewSettingActivity" android:screenOrientation="portrait"/>
+		<activity android:name="com.mobile.appPre.PshowActivity" android:screenOrientation="portrait"/>
+		<activity android:name="com.mobile.appPre.ViewPagerActivity" android:screenOrientation="portrait"/>
+		<activity android:name="com.mobile.appPre.MapActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.Test" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.WarnSetActivityame" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.WarnSetActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.MrtxActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.HsyjActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.QsbjActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.SsbjActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.AboutActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.sms.SystemstateActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermStationActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermStationEditActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermJiShiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermDingShiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermXiTongActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermJiWenActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.Alerm_ShangXiaActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermAddStation" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermAboutActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermStationUpdateActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermProvStationList" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermGetPhoneList" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermPhoneAddActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermJiWRuleListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mobile.appPre.AlermMessageActivity" android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

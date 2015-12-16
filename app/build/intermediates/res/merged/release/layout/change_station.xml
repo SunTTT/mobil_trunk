@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+     
+    <!--   <TextView        
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"         
+          android:singleLine="true"         
+          android:text="请选择站点"         
+          android:textColor="#FFFFFF"         
+          android:textSize="16sp" />   
+    
+     <Spinner
+          android:id="@+id/Spinner01"         
+          android:layout_width="fill_parent"           
+          android:layout_height="wrap_content"
+           android:layout_weight="0.4"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/black3"
+            android:text="aaaa" ></Spinner>-->
+     
+	 <TextView        
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"         
+          android:singleLine="true"         
+          android:text="请选择日期"
+         android:id="@+id/change_station_tv"
+          android:layout_marginTop="10dip"      
+          android:textColor="#FFFFFF"         
+          android:textSize="16sp" />         
+      <DatePicker         
+          android:id="@+id/date_picker"         
+          android:layout_width="wrap_content"         
+          android:layout_height="wrap_content"         
+          android:layout_marginTop="5dip"
+          android:layout_below="@+id/change_station_tv"
+          android:layout_centerInParent="true"/>
+</RelativeLayout>
+<!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/layout/change_station.xml -->

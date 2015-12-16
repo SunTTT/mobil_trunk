@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_catalog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/chat_title_name"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@color/green1">
+              <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/auto_scroll_viewpager"></cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager>
+        <!--<ImageView-->
+            <!--android:contentDescription ="@string/desc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginLeft="30dip"-->
+            <!--android:layout_marginRight="30dip"-->
+            <!--android:src="@drawable/desk_logo_new" />-->
+       
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_logo"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:stretchMode="columnWidth" />
+
+</RelativeLayout><!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/layout/desktop.xml -->

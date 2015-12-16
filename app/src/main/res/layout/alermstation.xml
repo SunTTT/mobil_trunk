@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+    <RelativeLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dip"
+	    android:background="#699f00"
+	    >
+	    <Button 
+	        android:id="@+id/datach"
+	        android:layout_width="50dip"
+	        android:layout_height="22dip"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="9dp"
+	        android:background="@drawable/all"
+	        android:onClick="MessCheck"
+	        />
+    <TextView 
+        android:id="@+id/a_head"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/alerm_mainhead"/>
+    
+    <Button 
+	        android:id="@+id/a_add"
+	        android:layout_width="20dip"
+	        android:layout_height="20dip"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="9dp"
+	        android:layout_alignRight="@+id/a_head"
+	        android:background="@drawable/add"
+	        />
+    </RelativeLayout>
+
+    <ExpandableListView 
+        android:id="@+id/expenlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000" 
+        >
+    </ExpandableListView> 
+</LinearLayout>

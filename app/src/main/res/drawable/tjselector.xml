@@ -1,0 +1,21 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:state_window_focused="false"
+
+
+        android:drawable="@drawable/tijiao"/>
+
+
+       
+
+         <item android:state_pressed="true"
+
+
+        android:drawable="@drawable/tijiao2"/>
+
+
+      
+
+
+</selector>

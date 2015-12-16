@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+         android:layout_width="wrap_content"            
+         android:layout_height="wrap_content"
+         android:background="#6fFFFFFF"
+         android:orientation="vertical"
+         android:id="@+id/site_list"         
+         >          
+		<TableRow android:layout_width="wrap_content"            
+         		  android:layout_height="wrap_content"
+         		  android:gravity="center">
+  		
+	  		<TextView android:textSize="20.0dip" android:textColor="#ff3f3f3f"
+					android:gravity="center" android:id="@+id/name"
+					android:paddingLeft="7.0sp" android:layout_width="wrap_content"
+					android:paddingTop="10dip"
+					android:paddingBottom="10dip"
+					android:textStyle="bold"
+					
+					android:layout_centerInParent="true"
+					android:layout_height="wrap_content" 
+					android:text="#####"
+					/>
+	  		
+		<TextView android:textSize="20.0dip" 
+		            android:textColor="#ff3f3f3f"
+					android:gravity="center" android:id="@+id/val"
+					android:paddingLeft="7.0sp" android:layout_width="wrap_content"
+					android:textStyle="bold"
+					android:layout_toRightOf="@id/name"
+					android:layout_height="wrap_content" 
+					android:text="89080"
+					/>
+	</TableRow>	
+<View android:layout_height="1dip" android:layout_width="wrap_content"
+     
+     android:layout_alignParentBottom="true"/>
+<!-- android:background="#afFFFFFF" -->
+         
+</RelativeLayout>  

@@ -1,0 +1,21 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:state_window_focused="false"
+
+
+        android:drawable="@drawable/cancle_button1"/>
+
+
+       
+
+         <item android:state_pressed="true"
+
+
+        android:drawable="@drawable/cancle_button2"/>
+
+
+      
+
+
+</selector><!-- From: file:/D:/mobile_farming_trunk2/app/src/main/res/drawable-ldpi/cancle_button_style.xml -->

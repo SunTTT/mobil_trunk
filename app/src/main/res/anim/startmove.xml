@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:duration="200" android:drawable="@drawable/robotdance_00133" />
+	<item android:duration="200" android:drawable="@drawable/robotdance_00133" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00136" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00136" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00142" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00142" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00148" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00148" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00151" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00152" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00154" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00154" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00162" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00162" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00162" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00163" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00163" />
+	<item android:duration="300" android:drawable="@drawable/robotdance_00170" />	
+	<item android:duration="300" android:drawable="@drawable/robotdance_00170" />	
+	<item android:duration="300" android:drawable="@drawable/robotdance_00170" />	
+	<item android:duration="300" android:drawable="@drawable/robotdance_00170" />
+	<item android:duration="200" android:drawable="@drawable/robotdance_00133" />	
+</animation-list> 
